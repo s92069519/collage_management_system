@@ -1,0 +1,31 @@
+
+
+/*Admin login css */
+
+.logo{
+    width: 50%;
+    max-width: 400px;
+    height: 100px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.login-box {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    margin: auto;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.login-box h3 {
+    margin-bottom: 20px;
+}
+.login-box .form-control {
+    margin-bottom: 15px;
+}
+.login-box .btn-primary {
+    width: 100%;
+}
+
