@@ -5,10 +5,10 @@ var bodyE = document.body;
 
 side_btn.addEventListener('click', () => {
     sidebar.classList.add('s-active');
-    heard_name.style.marginLeft = '55px';
+    heard_name.classList.add('s-head');
 });
 
 bodyE.addEventListener('dblclick', () => {
     sidebar.classList.remove('s-active');
-    heard_name.style.marginLeft = '0';
+    heard_name.classList.remove('s-head');
 });

@@ -47,6 +47,7 @@ body{
 .sidebar{
     width: 14%;
     background:var(--color2);
+    z-index: 1 ;
 }
 .sider-header{
     height: 50px;
@@ -79,9 +80,11 @@ ul{
 
 .view-area{
     width: 85%;
+    background-color: aliceblue;
 }
 .navbar{
     height: 60px;
+    background-color: #ffffff;
 }
 .prfile{
     height:30px;
@@ -90,6 +93,7 @@ ul{
     height: 50px;
     display: flex;
     align-items: center;
+    margin-left: 10px;
 }
 .head-name h4{
     padding-top: 10px;
@@ -109,24 +113,31 @@ border:#925FE2 2px solid
 }
 
 .count{
-    height: 150px;
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
 }
 .count-box{
-
+    height: 150px;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    margin: 10px;
+}
+
+.count-box .i-img{
+    height: 60px;
+    width: 60px;
+    padding: 10px;
+    background-color: #c6a5fa;
+}
+.c-text{
+    margin-left: 10px;
+    margin-top: 10px;
 }
 
 @media screen and (max-width: 1280px) {
     .sidebar{
         width: 20%;
-    }
-
-    .count-box{
-    
-    }
-
-    
-    
+    } 
 }
 
 
@@ -144,6 +155,9 @@ border:#925FE2 2px solid
         left: 0px;
         transition: 0.5s ease-in-out;
     }
+    .s-head{
+        margin-left: 65px;
+    }
     .view-area{
         width: 100%;
     }
@@ -154,13 +168,15 @@ border:#925FE2 2px solid
         bottom: 70px;
     }
     .navbar .head-name h4{
-        font-size: 15px;  
+        font-size: 17px;
+        font-weight: bold;
     }
     .prfile{
         height: 30px;
     }
-    .prf-img h6{
-        font-size: 10px;
+    .count{
+        width: 100%;
+        justify-content: center;
     }
 
     
